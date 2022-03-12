@@ -1,0 +1,20 @@
+#carrousel{
+    margin:50px auto 0;
+    width:80vw;
+    height:calc(80vw * 9 / 16);  /*  ratio 16/6  */
+    max-width:1200px;
+    max-height: 675px;
+    border:15px solid white;
+    box-shadow: 0 0 15px 10px rgba(0,0,0,0.2);
+    /* overflow:hidden; */
+}
+
+#reglette{
+    position:relative;
+    height: 100%;
+    display:flex;
+}
+
+#reglette img{
+    height:100%;
+}
