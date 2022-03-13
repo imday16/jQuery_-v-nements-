@@ -14,7 +14,9 @@ $(function(){
     let compteurSlides = 0;
     let timer = setInterval(carrousel, 4000);
 
+    
     function carrousel(){
+        
         $('#reglette').animate(
             {
                 'left' : '-100%'
