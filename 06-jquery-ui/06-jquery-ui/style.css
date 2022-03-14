@@ -1,0 +1,68 @@
+/* 
+#barre .ui-progressbar-value {
+    background: yellow ;
+} 
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+div{
+    margin:15px 0;
+}
+
+
+#redimension{
+    width:200px;
+    height:150px;
+    border:1px solid black;
+}
+
+#parent{
+    width:400px;
+    height:400px;
+    border:2px solid black;
+}
+
+.enfant{
+    width:100px;
+    height:100px;
+    border: 1px solid blue;
+    margin:0;
+}
+
+#elements{
+    display:flex;
+    width:300px;
+    justify-content:space-between;
+}
+
+#elements ul{
+    list-style:none;
+    border:1px solid blue;
+    padding:4px;
+}
+
+#elements ul li{
+    border:1px solid black;
+    padding:5px;    
+}
+
+.tache{
+    height:30px;
+    background:lightgreen;
+}
+
+#lateral{
+    padding:30px;
+    border:1px solid black;
+    background:#ccc;
+    width:150px;
+    display:none;
+    position:absolute;
+    top:50%;
+    left:10px;
+}
