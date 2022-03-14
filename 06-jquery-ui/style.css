@@ -1,0 +1,46 @@
+/* #barre.ui-progressbar-value {
+    background : black;
+} */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+div{
+    margin: 15px 0;
+}
+#redimention{
+    width:200;
+    height:150px;
+    border:1px solid black;
+}
+
+#parent{
+    width:400px;
+    height:400px;
+    border:2px solid black;
+}
+
+.enfant{
+width:100px;
+height:100px;
+border: 1px solid blue;
+margin:0;
+}
+#element{
+    display:flex;
+    width:300px;
+    justify-content: space-between;
+}
+#element ul{
+    list-style: none;
+    border:1px solid blue;
+    padding:4px;
+}
+#element ul li{
+    border:1px solid black;
+    padding:5px;
+}
+.tache{
+    height:30px;
+}
