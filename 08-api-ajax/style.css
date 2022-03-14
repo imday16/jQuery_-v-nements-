@@ -1,0 +1,13 @@
+#resultats{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#resultats figure{
+    width:90%;
+}
+
+#resultats figure img{
+    width:100%;
+}
+

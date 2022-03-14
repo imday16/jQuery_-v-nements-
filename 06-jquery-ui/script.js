@@ -18,12 +18,23 @@ $(function () {
       containment : "#parent", // id parent
       snap : ".enfant", // effet aimenté
       snapMode : "outer",
-      grid :[50,50]
+    //   grid :[50,50]
     
   });
 // listes triable et interchangeable 
   $('#afaire,#fait').sortable({
       connectWith : '.taches',
       placeholder : 'tache'
+  });
+
+  $('"panel').on('click',function(){
+      /*toggle() ,show() ,hide() */
+      $('#lateral').toggle(
+          "slide",
+          {
+              direction : "up"
+          },
+          1000
+      );
   });
 });
