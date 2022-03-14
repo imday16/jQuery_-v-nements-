@@ -114,7 +114,7 @@ $(function () {
 
 
 
-    
+   /* show(),hide() et toggle()*/
     
 
 });
