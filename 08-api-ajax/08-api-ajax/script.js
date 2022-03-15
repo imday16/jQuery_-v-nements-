@@ -137,6 +137,7 @@ $(function () {
         // $.post(URLRECHERCHE, {}, function(reponse){}, 'json');
     }
 
+    
 
     $.get('copyright.txt', {}, function (reponse) {
         $('footer .row .col').html(reponse);

@@ -10,7 +10,8 @@ $(function () {
         $.post(); // Ajax POST
     */
 
-    /* Activation du bouton sur saisie */
+    
+        /* Activation du bouton sur saisie */
     $('#saisie').on('input', function () {
         if ($(this).val().length >= 1) {
             // activer le bouton chercher
@@ -23,6 +24,7 @@ $(function () {
         }
     });
 
+    
     /* Lancer la recherche sur click du bouton */
     $('#recherche').on('click', lanceRecherche);
 
