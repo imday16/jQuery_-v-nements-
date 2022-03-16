@@ -13,6 +13,8 @@ $(function(){
     
 
 
+    
+
     // méthode hover()  // mouseover
     //$('.avion').hover(function(){
 
